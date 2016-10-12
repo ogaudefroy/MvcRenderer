@@ -1,0 +1,8 @@
+﻿<h2>I am a Razor partial view</h2>
+<h3>Current TempData values: @TempData.Count</h3>
+<ul>
+    @foreach (var key in TempData.Keys)
+    {
+        <li>@key : @TempData[key]</li>
+    }
+</ul>
