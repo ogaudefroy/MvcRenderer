@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.web xdt:Transform="InsertIfMissing">
+    <pages xdt:Transform="InsertIfMissing">
+      <controls xdt:Transform="InsertIfMissing">
+        <add xdt:Transform="InsertIfMissing"
+             xdt:Locator="Match(name)"
+             tagPrefix="mr"
+             namespace="MvcRenderer"
+             assembly="MvcRenderer" />
+      </controls>
+    </pages>
+  </system.web>
+</configuration>
